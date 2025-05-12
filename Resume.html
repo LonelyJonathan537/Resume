@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', 'Arial', sans-serif;
+            margin: 0;
+            background: #f4f6fb;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 0;
+            border-radius: 18px;
+            box-shadow: 0 8px 32px rgba(44,62,80,0.12);
+            overflow: hidden;
+            display: flex;
+            min-height: 1000px;
+        }
+        .sidebar {
+            background: linear-gradient(135deg, #4f8cff 60%, #6ee7b7 100%);
+            color: #fff;
+            width: 270px;
+            padding: 40px 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .profile-photo {
+            width: 230px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            margin-bottom: 25px;
+            background: #e0e7ef;
+        }
+        .sidebar h2 {
+            font-size: 1.5em;
+            margin: 10px 0 5px 0;
+            font-weight: 700;
+        }
+        .sidebar .role {
+            font-size: 1.1em;
+            margin-bottom: 18px;
+            font-weight: 400;
+            opacity: 0.9;
+        }
+        .sidebar .contact-info {
+            font-size: 0.98em;
+            margin-bottom: 30px;
+            width: 100%;
+        }
+        .sidebar .contact-info p {
+            margin: 8px 0;
+            word-break: break-all;
+        }
+        .sidebar .skills, .sidebar .links {
+            width: 100%;
+            margin-bottom: 25px;
+        }
+        .sidebar .skills ul, .sidebar .links ul {
+            padding-left: 18px;
+            margin: 0;
+        }
+        .sidebar .skills li, .sidebar .links li {
+            margin-bottom: 8px;
+        }
+        .main {
+            flex: 1;
+            padding: 50px 50px 50px 40px;
+        }
+        .main h1 {
+            font-size: 2.3em;
+            color: #2c3e50;
+            margin: 0 0 10px 0;
+            font-weight: 800;
+            letter-spacing: 1px;
+        }
+        .main .section {
+            margin-bottom: 38px;
+        }
+        .main h2 {
+            color: #4f8cff;
+            font-size: 1.25em;
+            margin-bottom: 12px;
+            letter-spacing: 0.5px;
+            font-weight: 700;
+        }
+        .main .item {
+            margin-bottom: 18px;
+        }
+        .main .item-title {
+            font-weight: 600;
+            color: #222;
+        }
+        .main .item-date {
+            float: right;
+            color: #6b7280;
+            font-size: 0.98em;
+            font-weight: 400;
+        }
+        .main ul {
+            margin: 6px 0 0 22px;
+        }
+        .main p, .main span {
+            color: #444;
+        }
+        @media (max-width: 900px) {
+            .container { flex-direction: column; min-height: unset; }
+            .sidebar { width: 100%; flex-direction: row; justify-content: flex-start; padding: 30px 15px; }
+            .main { padding: 30px 15px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img src="IMG_9286.JPG" alt="Profile Photo" class="profile-photo">
+            <div class="contact-info">
+                <p><strong>Email:</strong> chong5266john@gmail.com</p>
+                <p><strong>Phone:</strong> 014 853 0789</p>
+                <p><strong>Location:</strong> Kota Kinabalu, Sabah</p>
+            </div>
+            <div class="skills">
+                <strong>Skills</strong>
+                <ul>
+                    <li>HTML (Beginner)</li>
+                    <li>CSS (Beginner)</li>
+                    <li>Java (Beginner)</li>
+
+                </ul>
+            </div>
+            <div class="links">
+                <strong>Language</strong>
+                <ul>
+                    <li>Chinese</li>
+                    <li>English</li>
+                    <li>Malay</li>
+                </ul>
+            </div>
+            <div class="links">
+                <strong>Tools (Used)</strong>
+                <ul>
+                    <li>ChatGPT (AI)</li>
+                    <li>Visual Studio Code (Development)</li>
+                    <li>GitHub (For Backup)</li>
+                    <li>Youtube (Learning)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <h1>JONATHAN CHONG FUNG BIN</h1>
+            <div class="section">
+                <h2>Professional Summary</h2>
+                <p>Enthusiastic Diploma in Computer Science student from Nilai University seeking a web development or IT support internship for June 2025. Passionate about front-end development and problem-solving, with hands-on experience building websites and tools using HTML, CSS, JavaScript, and Java. I can understand the code faster but not very professional in Writting skills.</p>
+            </div>
+            <div class="section">
+                <h2>Education</h2>
+                <div class="item">
+                    <span class="item-title">Diploma in Computer Science</span> - <span>Nilai University</span>
+                    <span class="item-date">2022 - 2025</span>
+                    <br>
+                    <span>Learning basic skills using Visual Code during the courses in the University.</span>
+                </div>
+            </div>
+            <div class="section">
+                <h2>Projects</h2>
+                <div class="item">
+                    <span class="item-title">Travel Website | Final Year Projects</span>
+                    <br>
+                    <span>My final year project is a travel website built using HTML, CSS, JavaScript, PHP, and MySQL that allows users to book flights, explore destinations, view maps, and save bookmarks for future travel planning.</span>
+                </div>
+                <div class="item">
+                    <span class="item-title">Random Password Generator Tools | Assignment</span>
+                    <br>
+                    <span>My project is a random password generator built using Visual Basic .NET that allows users to create secure passwords, check their strength, copy them to the clipboard, and save them to a file</span>
+                </div>
+                <div class="item">
+                    <span class="item-title">Introduction Myself | Assignment</span>
+                    <br>
+                    <span>This is a simple introduction myself that use HTML and CSS to make a Website.</span>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
